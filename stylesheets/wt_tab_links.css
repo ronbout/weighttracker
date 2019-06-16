@@ -1,0 +1,52 @@
+/* wt_tab_links.css 
+  css file tab links in wt_member.php html  */
+
+#tabmenu {
+	color: #000;
+	border-bottom: 1px solid black;
+	margin: 12px 0px 0px 0px;
+	padding: 0px;
+	z-index: 1;
+	padding-left: 10px }
+ 
+#tabmenu li {
+	display: inline;
+	overflow: hidden;
+	padding-right: 10px;
+	list-style-type: none; }
+ 
+#tabmenu a, a.selected {
+	color: #ddd;
+	background: #898B5E;
+	font-size:1em;
+	font-weight:bold;
+	border: 1px solid black;
+	padding: 2px 5px 0px 5px;
+	margin:0;
+	text-decoration: none; 
+	font: bold 1em "Trebuchet MS", Arial, sans-serif;}
+	
+ #tabmenu a:visited {
+	color: #ddd; }
+	
+#tabmenu a:hover {
+	color: #ddd;
+	background: #ADC09F; }
+	
+#tabmenu a.selected:visited, #tabmenu a.selected {
+	color:#fff;
+	background: #00B000;
+	border-bottom: 2px solid #00AA00; }
+
+#tabmenu a.selected:hover {
+	background: #00AA00;
+	color: #fff; }
+	
+#tab_content {
+		background: #00B000;
+		padding: 20px;
+		border: 1px solid black;
+		border-top: none;
+		height:400px; 
+		z-index: 2;	}
+

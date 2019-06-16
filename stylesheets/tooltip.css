@@ -1,0 +1,16 @@
+/* tooltip.css
+*	CSS class definitions for tooltips as found
+*	in Javascript: The Definitive Guide
+*/
+
+.tooltipShadow {
+	background: url('../images/shadow.png');  /* translucent shadow */
+}
+
+.tooltipContent {
+   left: -4px; top: -4px;        /* how much of the shadow shows */
+   background-color: #22ed22;       /* yellow background */
+   border: solid black 1px;      /* thin black border */
+   padding: 5px;                 /* spacing between text and border */
+   font: bold 10pt sans-serif;   /* small bold font */
+}

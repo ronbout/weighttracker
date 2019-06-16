@@ -1,0 +1,166 @@
+/* wt_member.css 
+  css file for wt_member.php html  */
+#middle #main #calendar { 
+	position:relative; width:327px;	height:480px; 
+	float:left;  
+	padding:0 5px;
+}
+#graph {
+	position:relative;
+	width:459px; height:460px;
+	float:left;
+	padding:10px 10px;
+	background-color:#00AA00;
+}
+#div_form_graph {
+	height:300px;
+	position:relative; 
+	width:238px; height:420px; 
+	float:left;  
+	padding:30px 10px;
+	background-color:#00AA00;
+	font-weight:bold;
+}
+#div_form_graph fieldset {
+	border: 2px groove black;
+
+}
+#cal_legend {
+	position:absolute;
+	top:200px; left:33px;
+	width:280px;
+}
+#goal_legend {
+	float:left;
+	width:20px;
+	height:20px;
+	background-color:#FF8888;
+}
+#weight_legend {
+	color:blue;
+}
+#current_legend {
+	font-weight:bolder;
+}
+#middle #main #data	{ 
+	position:relative; 
+	width:380px; height:480px; 
+	float:left;  
+	padding:0 10px;
+}
+
+#mesg {
+	position:absolute;
+	top:250px; left:33px;
+	width:274px; height:170px;
+	border: inset;
+	padding:4px;
+}
+#new_goal {
+	margin-bottom:40px;
+	margin-left:2px;
+}
+#goal_list {
+	margin-top:0;
+	max-height:240px;
+	overflow:auto;
+}
+#new_goal{
+	margin-bottom:10px;
+	padding-bottom:0;
+}
+p.main_mesg_err {
+	color:red;
+}
+#div_form_wt {
+	padding-left:25px;
+}
+#div_table {
+	position:relative;
+	max-height:380px;
+	background-color:#66E275;
+	overflow:auto;
+}
+#disp_table {
+	border:groove;
+	width:100%;
+}
+input.inp_wt , input.inp_goal{
+	text-align:center;
+	border:inset;
+}
+th.wt_table_th, th.goal_table_th, th.table_th {
+	text-decoration:underline;
+}
+th.table_th {
+	width:30%;
+	padding-bottom:10px;
+}
+td.wt_table_check, td.goal_table_check {
+	text-align:center;
+}
+td.table_weight, td.table_goal, td.table_date {
+	text-align: center;
+	border-bottom:1px inset black;
+	padding-top:2px;
+}
+td.goal_table_add {
+	font-weight:bold;
+	text-align:left;
+	font-size:1.1em;
+	padding-right:3px;
+}
+td.goal_new_dat {
+	padding-left:3px;
+	padding-right:4px;
+}
+p.form_buttons {
+	padding-left:20px;
+}
+#div_form_goal h4 {
+	margin-bottom:0;
+	text-align:center;
+}
+#div_form_goal h3 {
+	text-align:center;
+	margin-bottom:2px;
+	padding-bottom:0;
+}
+input.sub {
+	background-color:#66E275;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+}
+
+#div_news {
+	position:relative;
+	width:360px;
+	height:400px;
+	padding:0px 5px;
+	margin-top: 5px;
+	overflow:auto;
+	font-size:0.8em;
+	background-color:#66E275;
+	border:groove;
+}
+#div_news p {
+	margin:0;
+}
+#div_news h3 {	
+	margin-bottom:2px;
+	margin-top:10px;
+	font-weight:bold;
+}
+#div_news a {
+	text-decoration:underline;
+	color:blue;
+}
+#news_data {
+	position:relative;
+	float:left;
+	width:375px; 
+	height:460px; 
+	background-color: #00aa00;
+	padding:10px;
+	padding-left:15px;
+}
